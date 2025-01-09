@@ -1,0 +1,8 @@
+n=int(input())
+m=int(input())
+older_child_allowance =50+(5 * n)
+younger_child_allowance=30+(3*m)
+total_allowance=older_child_allowance+younger_child_allowance
+print(f"Older child allowance: Rs.{older_child_allowance})
+print(f"Younger child allowance: Rs.{younger_child_allowance}")
+print(f"Total allowance: Rs.{total_allowance}")
